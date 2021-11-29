@@ -6,9 +6,9 @@ public class AlfredQuotes {
         return "Hello, lovely to see you. How are you?";
     }
     
-    public String guestGreeting(String name, String dayPeriod) {
+    public String guestGreeting(String name) {
         // YOUR CODE HERE
-        return String.format("Good %s, %s, welcome to the manor.", dayPeriod, name);
+        return String.format("Hello, %s, welcome to the manor.", name);
     }
     
     public String dateAnnouncement() {
