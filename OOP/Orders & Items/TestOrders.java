@@ -3,9 +3,36 @@ public class TestOrders {
     public static void main(String[] args) {
     
         // Menu items
-    
+        Item item1 = new Item();
+        item1.name = "mocha";
+        item1.price = 3.25;
+
+        Item item2 = new Item();
+        item2.name = "latte";
+        item2.price = 4.5;
+
+        Item item3 = new Item();
+        item3.name = "drip coffee";
+        item3.price = 2.15;
+
+        Item item4 = new Item();
+        item4.name = "capuccino";
+        item4.price = 3.5;
+
         // Order variables -- order1, order2 etc.
-    
+        Order order1 = new Order();
+        System.out.println(order1.total);
+        order1.name = "Cindhuri";
+
+        Order order2 = new Order();
+        order2.name = "Jimmy";
+
+        Order order3 = new Order();
+        order3.name = "Noah";
+
+        Order order4 = new Order();
+        order4.name = "Sam";
+        
         // Application Simulations
         // Use this example code to test various orders' updates
         System.out.printf("Name: %s\n", order1.name);
